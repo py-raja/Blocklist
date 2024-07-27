@@ -1,4 +1,4 @@
-# Firewall Address Configuration Script
+# Fortigate Firewall Address Configuration Script
 
 ## Overview
 
