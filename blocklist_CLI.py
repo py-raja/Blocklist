@@ -25,7 +25,7 @@ def generate_addrgrp_config(entry):
     return f"""   append member {entry}"""
 
 def remove_brackets(entry):
-    return entry.replace("[", "").replace("]", "").replace("www.","https://").replace("http://","https://").replace("https://","https://").replace("hxxps://","https://").replace("hxxp://","https://")
+    return entry.replace("[", "").replace("]", "").replace("http://www.","https://").replace("https://www.","https://").replace("www.","https://").replace("http://","https://").replace("https://","https://").replace("hxxps://","https://").replace("hxxp://","https://")
         
 def main():
     filename = input("Enter the path of the file containing IP addresses and FQDNs: ")
